@@ -1,31 +1,86 @@
-# Python
-__pycache__/
+# ===============================
+
+# 🔹 Python Virtual Environment
+
+# ===============================
+
+.venv/
+venv/
+env/
+
+# ===============================
+
+# 🔹 Python Cache Files
+
+# ===============================
+
+**pycache**/
 *.pyc
 *.pyo
 *.pyd
-
-# Virtual Environment
-venv/
-.env/
-.env.*
-
-# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-.loan_approvial.ipynb
 
-# VS Code
-.vscode/
+# ===============================
 
-# OS files
+# 🔹 Machine Learning Models
+
+# ===============================
+
+*.pkl
+*.joblib
+
+# ===============================
+
+# 🔹 Dataset Files
+
+# ===============================
+
+*.csv
+*.xlsx
+
+# ===============================
+
+# 🔹 Logs & Temp Files
+
+# ===============================
+
+*.log
+catboost_info/
+
+# ===============================
+
+# 🔹 OS / System Files
+
+# ===============================
+
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# ===============================
 
-# Dataset (optional)
-# If dataset is large, ignore it
-# *.csv
+# 🔹 Screenshots (Optional)
 
-# CatBoost / ML artifacts
-catboost_info/
+# ===============================
+
+
+# ===============================
+
+# 🔹 IDE / Editor Files
+
+# ===============================
+
+.vscode/
+.idea/
+
+# ===============================
+
+# 🔹 Environment Variables (IMPORTANT)
+
+# ===============================
+
+.env
+
+# ===============================
+
+
+loan_approvial.ipynb
